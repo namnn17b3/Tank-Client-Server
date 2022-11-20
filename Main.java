@@ -106,7 +106,7 @@ public class Main {
             else if (e.getSource() == btTwoPlayerOffline) {
                 JFrame gameOfflineFrame = new JFrame();
                 Gameplay gamePlayOffline = new Gameplay();
-                sound.playMusicEffect();
+                sound.playMusic();
                 // gamePlayOffline.setBackground(Color.red);
                 gameOfflineFrame.addWindowListener(new WindowAdapter() {
                     @Override
