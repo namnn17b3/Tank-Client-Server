@@ -143,7 +143,7 @@ public class Main {
                 enterServerPortFrame.add(textPort);
 
                 btOk = new JButton("OK");
-                btOk.setFont(new Font("Sans-serif", Font.BOLD, 11));
+                btOk.setFont(new Font("Sans-serif", Font.BOLD, 10));
                 btOk.setBackground(Color.decode("#7cbf8e"));
                 btOk.setBounds(225, 110, 50, 50);
                 enterServerPortFrame.add(btOk);
@@ -187,7 +187,7 @@ public class Main {
                 enterServerIPFrame.add(textPort);
                 
                 btTitle = new JButton("OK");
-                btTitle.setFont(new Font("Sans-serif", Font.BOLD, 11));
+                btTitle.setFont(new Font("Sans-serif", Font.BOLD, 10));
                 btTitle.setBackground(Color.decode("#7cbf8e"));
                 btTitle.setBounds(225, 230, 50, 50);
                 enterServerIPFrame.add(btTitle);
